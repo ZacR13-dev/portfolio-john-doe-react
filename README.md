@@ -1,70 +1,150 @@
-# Getting Started with Create React App
+# Portfolio John Doe - React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Description
 
-## Available Scripts
+Ce projet est un portfolio professionnel développé avec React.js pour John Doe, développeur web full-stack. Le site présente ses compétences, services, réalisations et permet de le contacter.
 
-In the project directory, you can run:
+## 🚀 Technologies utilisées
 
-### `npm start`
+- **React.js** (avec hooks useState et useEffect)
+- **React Router DOM** (pour la navigation)
+- **Bootstrap 5** (framework CSS)
+- **Bootstrap Icons** (icônes)
+- **API GitHub** (intégration modale)
+- **Google Maps** (iframe intégrée)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Prérequis
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Avant de commencer, assurez-vous d'avoir installé :
+- **Node.js** (version 14 ou supérieure)
+- **npm** (généralement installé avec Node.js)
 
-### `npm test`
+## 🔧 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clonez le repository
+```bash
+git clone https://github.com/ZacR13-dev/portfolio-john-doe-react.git
+```
 
-### `npm run build`
+### 2. Accédez au dossier du projet
+```bash
+cd portfolio-john-doe-react
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Installez les dépendances
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ▶️ Lancement du projet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pour lancer le serveur de développement :
+```bash
+npm start
+```
 
-### `npm run eject`
+Le site sera accessible sur `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Le navigateur se rechargera automatiquement à chaque modification du code.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🏗️ Build de production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Pour créer une version optimisée pour la production :
+```bash
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Les fichiers optimisés seront générés dans le dossier `build/`.
 
-## Learn More
+## 📱 Fonctionnalités
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ✅ **Navigation responsive** avec React Router
+- ✅ **Menu hamburger** sur mobile/tablette
+- ✅ **Intégration API GitHub** avec modale dynamique
+- ✅ **Formulaire de contact** avec validation
+- ✅ **Portfolio de réalisations** avec cards interactives
+- ✅ **Design responsive** (Mobile, Tablet, Desktop)
+- ✅ **Effets hover et transitions CSS**
+- ✅ **SEO optimisé** (meta tags, balises sémantiques)
+- ✅ **Accordéon Bootstrap** pour les mentions légales
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📄 Pages
 
-### Code Splitting
+Le site comprend 5 pages principales :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Accueil** (`/`) : Hero section, présentation et compétences avec progress bars
+2. **Services** (`/services`) : Présentation des offres (UX Design, Développement Web, SEO)
+3. **Réalisations** (`/portfolio`) : Portfolio de 6 projets
+4. **Contact** (`/contact`) : Formulaire de contact et Google Maps
+5. **Mentions Légales** (`/mentions-legales`) : Informations légales (non indexée)
 
-### Analyzing the Bundle Size
+## 🎨 Charte graphique
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Police** : Nunito Sans (Google Fonts) - 400 et 600
+- **Couleurs** : Palette Bootstrap par défaut
+- **Icônes** : Bootstrap Icons
+- **Framework CSS** : Bootstrap 5
 
-### Making a Progressive Web App
+## 📐 Structure du projet
+```
+portfolio-john-doe-react/
+├── public/
+│   ├── images/
+│   │   ├── hero-bg.jpg
+│   │   ├── banner.jpg
+│   │   ├── john-doe-about.jpg
+│   │   └── portfolio/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── GitHubModal.jsx
+│   │   ├── ServiceCard.jsx
+│   │   └── ProjectCard.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Services.jsx
+│   │   ├── Portfolio.jsx
+│   │   ├── Contact.jsx
+│   │   └── MentionsLegales.jsx
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌐 Conformité et Validation
 
-### Advanced Configuration
+- ✅ Code HTML validé W3C
+- ✅ Code CSS validé W3C
+- ✅ Responsive Design (Mobile, Tablet, Desktop)
+- ✅ Accessibilité (balises sémantiques, attributs ARIA)
+- ✅ SEO (meta tags, structure sémantique)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👤 Auteur
 
-### Deployment
+**Kevin Reis**  
+Étudiant - Développeur Web  
+Centre Européen de Formation  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**GitHub** : [@ZacR13-dev](https://github.com/ZacR13-dev)
 
-### `npm run build` fails to minify
+## 📜 Licence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet est réalisé dans le cadre d'une évaluation académique au Centre Européen de Formation.
+
+## 🙏 Crédits
+
+- **Images** : [Pixabay](https://pixabay.com/) (libres de droits)
+- **Favicon** : [Flaticon](https://www.flaticon.com/free-icons/john-doe) - John Doe Icons par Freepik
+- **Framework** : [Bootstrap 5](https://getbootstrap.com/)
+- **Icônes** : [Bootstrap Icons](https://icons.getbootstrap.com/)
+
+---
+
+**Note** : Ce projet utilise l'API GitHub publique pour la modale de profil. Aucune clé API n'est requise.
