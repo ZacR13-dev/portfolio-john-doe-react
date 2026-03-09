@@ -16,8 +16,9 @@ function MentionsLegales() {
   return (
     <section className="py-5">
       <div className="container">
-        <h1 className="text-center section-title mb-5">Mentions légales</h1>
-        
+        <h1 className="mb-3 text-center">Mentions légales</h1>
+        <p className="section-title-center text-muted mb-5 text-center"></p>
+
         <div className="accordion" id="mentionsAccordion">
           {/* Éditeur du site */}
           <div className="accordion-item">
@@ -39,7 +40,7 @@ function MentionsLegales() {
               data-bs-parent="#mentionsAccordion"
             >
               <div className="accordion-body">
-                <h5>John Doe</h5>
+                <h2>John Doe</h2>
                 <p>
                   <i className="bi bi-geo-alt-fill me-2"></i>
                   40 rue Laure Diebold
@@ -80,15 +81,15 @@ function MentionsLegales() {
               data-bs-parent="#mentionsAccordion"
             >
               <div className="accordion-body">
-                <h5>alwaysdata</h5>
+                <h2>alwaysdata</h2>
                 <p>91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
                 <p>
                   <i className="bi bi-globe me-2"></i>
-                  <a 
-                    href="https://www.alwaysdata.com" 
-                    target="_blank" 
+                  <a
+                    href="https://www.alwaysdata.com"
+                    target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary"
+                    className="text-primary text-decoration-underline"
                   >
                     www.alwaysdata.com
                   </a>
@@ -117,14 +118,14 @@ function MentionsLegales() {
               data-bs-parent="#mentionsAccordion"
             >
               <div className="accordion-body">
-                <h5>Crédits</h5>
+                <h2>Crédits</h2>
                 <p>
                   Ce site a été réalisé par John Doe, étudiant au{' '}
-                  <a 
-                    href="https://www.centre-europeen-formation.fr/" 
-                    target="_blank" 
+                  <a
+                    href="https://www.centre-europeen-formation.fr/"
+                    target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary"
+                    className="text-primary text-decoration-underline"
                   >
                     Centre Européen de formation
                   </a>.
@@ -132,11 +133,11 @@ function MentionsLegales() {
                 <p>
                   <em>
                     Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site{' '}
-                    <a 
-                      href="https://pixabay.com/" 
-                      target="_blank" 
+                    <a
+                      href="https://pixabay.com/"
+                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-primary"
+                      className="text-primary text-decoration-underline"
                     >
                       Pixabay
                     </a>
@@ -145,11 +146,11 @@ function MentionsLegales() {
                 <p>
                   <em>
                     La favicon de ce site a été fournie par{' '}
-                    <a 
-                      href="https://www.flaticon.com/free-icons/john-doe" 
-                      target="_blank" 
+                    <a
+                      href="https://www.flaticon.com/free-icons/john-doe"
+                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-primary"
+                      className="text-primary text-decoration-underline"
                     >
                       John doe Icons erstellt von Freepik - Flaticon
                     </a>
