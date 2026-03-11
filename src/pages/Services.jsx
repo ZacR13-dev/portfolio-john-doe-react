@@ -24,6 +24,7 @@ function Services() {
     <>
       {/* Banner */}
       <section className="banner-section d-flex align-items-center justify-content-center">
+        <h2 className="visually-hidden">Bannière Services</h2>
       </section>
 
       {/* Titre et Services */}

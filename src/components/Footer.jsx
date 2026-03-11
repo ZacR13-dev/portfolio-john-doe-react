@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
           {/* Colonne 1 : Coordonnées */}
           <div className="col-md-4 mb-4">
-          <h5 className="mb-3">John Doe</h5>
+          <h3 className="mb-3">John Doe</h3>
           <p className="mb-1">40 rue Laure Diebold</p>
           <p className="mb-1">69009 Lyon, France</p>
           <p className="mb-1">10 20 30 40 50</p>
@@ -43,7 +43,7 @@ function Footer() {
 
           {/* Colonne 2 : Liens utiles */}
           <div className="col-md-4 mb-4">
-            <h5 className="mb-3">Liens utiles</h5>
+            <h3 className="mb-3">Liens utiles</h3>
             <ul className="list-unstyled">
               <li className="mb-2">
                 <Link to="/" className="text-white footer-link">Accueil</Link>
@@ -65,7 +65,7 @@ function Footer() {
 
           {/* Colonne 3 : Dernières réalisations */}
           <div className="col-md-4 mb-4">
-            <h5 className="mb-3">Mes dernières réalisations</h5>
+            <h3 className="mb-3">Mes dernières réalisations</h3>
             <ul className="list-unstyled">
               <li className="mb-2">
                 <Link to="/portfolio" className="text-white footer-link">Fresh Food</Link>
